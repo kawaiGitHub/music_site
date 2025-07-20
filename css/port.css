@@ -1,0 +1,165 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+
+}
+body{
+	background-color:#777777;
+	font-size:1.6rem;/* 16px*/
+	line-height: 2;
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+a img:hover {
+	opacity:0.7;
+	transition:0.3s;
+}
+a{
+	text-decoration: none;
+}
+a:link { color: #0864fc; } 
+a:visited { color: #0864fc; }
+a:hover { color: #08aefc; } 
+a:active { color: #08aefc; } 
+
+ul,ol{
+	list-style: none;
+}
+a video:hover {
+	opacity:0.7;
+	transition:0.3s;
+}
+a img:hover {
+	opacity:0.7;
+	transition:0.3s;
+}
+h1{
+	text-align: center;
+	font-size:3.1rem;
+	color: #fff;
+	padding: 0 0 43px 0;	
+}
+h2{
+	text-align: center;
+	font-size:3.2rem;
+	color: #000;
+	padding: 33px 0 24px 0;
+}
+/* index */
+.container{
+	width: 77%;
+	padding: 45px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.mainUl{
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+}
+ul.mainUl li{
+	width: 24%;
+	margin: 0 .5% 1% .5%;
+}
+ul.mainUl li a{
+	display: block;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	padding: 20px ;
+	position: relative;
+}
+ul.mainUl li a:hover{
+	background: #000;
+	color: #fff;
+}
+/* baxis～ */
+.main{
+	background-color: #fff;
+}
+.wrapper{
+	width: 35%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0;
+}
+.btn a{
+	padding: 12px 37px;
+	text-decoration: none;
+	background: #ffffff;
+	border: #000 solid 2px;
+	color: #000;
+}
+.btn a:hover{
+	background: #000;
+	color: #fff;
+}
+ul.sabUl li{
+	margin: 0 0 35px 0;
+}
+ul.sabUl li a video, ul.sabUl li a img{
+	width: 100%;
+	vertical-align: bottom;
+}
+/* ページ上部ボタン */
+#page_top{
+	width: 100px;
+	height: 77px;
+	position: fixed;
+	right: -100px;
+	bottom: 10px;
+	z-index: 1500;
+}
+#page_top a{
+	background-color: #ff0000;
+	background-size: 100% auto;
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 77px;
+	text-decoration: none;
+	position: relative;
+}
+#page_top a::before{
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	content: '\f106';
+	font-size: 2.5rem;
+	color: #fff;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 6px;
+	right: 38px;
+	margin: auto;
+	text-align: center;
+}
+#page_top a::after{
+	content: 'PAGE TOP';
+	font-size: 1.3rem;
+	color: #fff;
+	position: absolute;
+	top: 42px;
+	right: 19px;
+	margin: auto;
+	text-align: center;
+} 
+
+
+@media (min-width: 1200px) {/* 1200px�ȏ�*/
+
+}
+@media screen and (max-width: 640px) {/* 640px�ȉ�*/
+
+}
+@media screen and (max-width: 480px) {
+
+}
