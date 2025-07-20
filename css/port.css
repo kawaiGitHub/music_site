@@ -81,7 +81,6 @@ ul.mainUl li a:hover{
 	background: #000;
 	color: #fff;
 }
-/* baxis～ */
 .main{
 	background-color: #fff;
 }
@@ -158,7 +157,10 @@ ul.sabUl li a video, ul.sabUl li a img{
 
 }
 @media screen and (max-width: 640px) {/* 640px�ȉ�*/
-
+ul, ol {
+    width: 100%;
+    padding: 0;
+}
 }
 @media screen and (max-width: 480px) {
 
